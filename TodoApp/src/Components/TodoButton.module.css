@@ -1,0 +1,13 @@
+
+.todoBtn{
+    padding: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.todoBtn:active{
+    transform: scale(0.9);
+}

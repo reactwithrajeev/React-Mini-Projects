@@ -1,0 +1,11 @@
+.todoListItems{
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todoListItems.active{
+    background-color: rgb(184, 246, 143);
+}
