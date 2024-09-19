@@ -1,0 +1,22 @@
+
+input{
+    width: 40%;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.addTodoBtn{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4vw;
+}
+
+.addTodoBtn:active{
+    transform: scale(0.9);
+}

@@ -1,0 +1,36 @@
+
+.todoList{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* padding-right: 40px; */
+
+
+}
+.todoList span{
+    width: 37%;
+    margin-left: -27px;
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 10px ;
+    background-color: rgb(240, 240, 167);
+    border-radius: 8px;
+
+}
+.todoList span:nth-child(2){
+    background-color: rgb(157, 243, 157);
+}
+.deleteBtn{
+    padding: 10px 25px;
+    background-color: rgb(171, 7, 7);
+    color: #fff;
+    border: none;
+    outline:none;   
+    margin-right: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
