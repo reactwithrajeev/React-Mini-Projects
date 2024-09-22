@@ -1,0 +1,28 @@
+
+.todoList{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    /* width: 100%; */
+    /* background-color: aqua; */
+
+}
+
+.todoList span{
+    background-color: rgb(161, 232, 161);
+    padding: 15px;
+    width: 35%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.deleteBtn{
+    width: 18%;
+    padding: 15px;
+    background-color: rgb(136, 3, 3);
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    outline:none;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todoContainer{
+    width: 50%;
+    height: 85vh;
+    border: 2px solid grey;
+    border-radius: 12px;
+    padding: 40px 25px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
