@@ -1,0 +1,48 @@
+.app-container{
+    display: flex;
+
+}
+
+.app-content{
+    width: 100%;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+
+.postCard{
+    margin: 10px 10px;
+    height: 650px;
+}
+
+.createPostForm{
+    background-color: rgb(158, 156, 156);
+    padding: 60px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card-img{
+    width: 100%;
+    height: 250px;
+}
+
+.hashTags{
+    margin: 0 2px;
+}
+
+.likeBadge{
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    font-size: 3vw;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
