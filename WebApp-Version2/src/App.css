@@ -1,0 +1,41 @@
+.appContainer{
+    display: flex;
+
+}
+
+.content{
+    width: 100%;
+    
+}
+
+form{
+    width: 50%;
+    padding: 15px;
+    margin:auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.postGroup{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.postCard{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+img{
+  height: 300px;  
+  object-fit: cover;
+  position: center;
+}
+
+button{
+    right: 0px;
+}

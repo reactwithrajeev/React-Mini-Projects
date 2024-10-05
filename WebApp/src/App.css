@@ -16,6 +16,9 @@
 .postCard{
     margin: 10px 10px;
     height: 650px;
+    width: 450px;
+    min-width: 450px;
+    padding: 25px;
 }
 
 .createPostForm{

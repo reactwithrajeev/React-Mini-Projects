@@ -7,14 +7,6 @@ import CardContextProvider from './store/Card-Context-Store';
 import MainContent from './components/MainContent/MainContent';
 
 function App() {
-
-  // const [tabName,setTabName] = useState("Home");
-
-  // let handleClick=(Name)=>{
-  //   setTabName(Name)
-  // }
-
-
   return (
     <CardContextProvider>
     <div className="app-container">
